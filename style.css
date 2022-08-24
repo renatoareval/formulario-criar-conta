@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+main{
+    width:360px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    padding: 20px;
+}
+
+.cabecalho h1 {
+    margin-top: 82px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.cabecalho p{
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+
+.cabecalho span{
+    color: #D3310C;
+    margin-left: 8px;
+}
+
+.form{
+    padding: 20px;
+}
+
+.caixa{
+    width: 320px;
+    background-color:#E7EAF2;
+    height: 70px;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.caixa input{
+    display: block;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 600;
+    margin-top: 9px;
+    font-size: 12px;
+    min-width: 80%;
+    background-color: #E7EAF2;
+}
+.caixa label{
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#718387;
+    font-weight: 500;
+    outline: none;
+}
+
+
+.caixa-branca{
+    width: 320px;
+    border: 1px solid #D3310C;
+    height: 70px;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.caixa-branca input{
+    display: block;
+    border: none;
+
+    outline: none;
+    color: black;
+    font-weight: 600;
+    margin-top: 9px;
+    font-size: 12px;
+}
+
+.caixa-branca label{
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#718387;
+    font-weight: 500;
+}
+
+img{
+   position: absolute;
+   left: 287px;
+   top: 39px;
+}
+
+.botao{
+    width: 320px;
+    height: 52px;
+    background-color: #D3310C;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
